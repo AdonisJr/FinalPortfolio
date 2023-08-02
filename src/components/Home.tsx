@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import SocialMedia from './SocialMedia';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
     <div className='flex flex-col gap-2 w-full min-h-screen sm:pl-12 sm:flex-row'>
         <div className='flex items-center justify-center sm:w-5/12'>
             {/* Image */}
-            <img className='rounded-full shadow-md' src="/adon1.png" alt="Profile" />
+            <Image className='rounded-full shadow-md' width={500} height={500} src="/adon1.png" alt="Profile" />
         </div>
         <div className='flex flex-col justify-center
         items-center text-white font-sans sm:w-7/12 gap-5'>
