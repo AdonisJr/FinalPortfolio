@@ -3,7 +3,7 @@ import Technologies from "./Technologies";
 
 export default function About() {
   return (
-    <div className="flex flex-col py-10 sm:flex-row text-md sm:text-lg bg-slate-800 sm:py-10 text-white font-mono">
+    <div className="flex flex-col pt-10 sm:flex-row text-md sm:text-lg bg-slate-800 sm:py-10 text-white font-mono">
       <div className="flex mb-5 flex-col px-5 justify-center sm:w-6/12">
         <p>
           Hi, {"I'm "}
