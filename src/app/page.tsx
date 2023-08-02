@@ -6,9 +6,9 @@ import Projects from "@/components/Projects";
 
 export default function page() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-500 to to-black text-white">
+    <main className="min-h-screen bg-gradient-to-br gap-5 from-gray-500 to to-black text-white">
       <Navbar />
-      <div id="home">
+      <div id="home min-h-screen">
           <Home />
       </div>
       <div id="about" className="flex items-center min-h-screen">
