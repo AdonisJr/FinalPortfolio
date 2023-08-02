@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     //  bg-gradient-to-tr from-black to to-slate-800
-    <div className='flex flex-col gap-2 w-full min-h-screen sm:pl-12 sm:flex-row'>
+    <div className='flex flex-col gap-2 w-full py-10 min-h-screen sm:pl-12 sm:flex-row'>
         <div className='flex items-center justify-center sm:w-5/12'>
             {/* Image */}
             <Image className='rounded-full shadow-md' width={500} height={500} src="/adon1.png" alt="Profile" />

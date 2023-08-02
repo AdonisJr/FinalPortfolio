@@ -3,7 +3,7 @@ import Technologies from "./Technologies";
 
 export default function About() {
   return (
-    <div className="flex flex-col my-10 sm:flex-row text-md sm:text-lg sm:bg-slate-800 sm:py-10 text-white font-mono">
+    <div className="flex flex-col py-10 sm:flex-row text-md sm:text-lg bg-slate-800 sm:py-10 text-white font-mono">
       <div className="flex mb-5 flex-col px-5 justify-center sm:w-6/12">
         <p>
           Hi, {"I'm "}
@@ -20,7 +20,7 @@ export default function About() {
         </p>
       </div>
       <div className="flex flex-col  gap-3 bg-white md:rounded-tl-full justify-center text-center sm:w-6/12 py-3">
-        <div className="flex items-center text-slate-800 justify-center sm:justify-end gap-3">
+        <div className="flex items-center sm:pr-5 text-slate-800 justify-center sm:justify-end gap-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="35"
