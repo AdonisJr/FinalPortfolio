@@ -5,7 +5,7 @@ export default function About() {
     <div className="flex flex-col sm:flex-row text-md sm:text-lg sm:bg-slate-800 sm:py-10 text-white font-mono">
       <div className="flex flex-col px-5 justify-center sm:w-6/12">
         <p>
-          Hi, {"I'm"}
+          Hi, {"I'm "}
           <span className="text-2xl font-bold font-serif">Adonis Jr Suico</span>
         </p>
         <p className="font-semibold">Aspiring Full-stack Web Developer</p>
@@ -15,7 +15,7 @@ export default function About() {
           technologies. From crafting responsive and visually engaging user
           interfaces with HTML, CSS, and JavaScript to building robust
           server-side applications using frameworks like React JS, Next JS, Node
-          JS, I'm always eager to push the boundaries of what's possible.
+          JS, {" I'm "} always eager to push the boundaries of what's possible.
         </p>
       </div>
       <div className="flex flex-col text-slate-800 gap-3 bg-white sm:rounded-tl-full justify-center text-center sm:w-6/12 py-3">
