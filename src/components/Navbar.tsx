@@ -11,7 +11,6 @@ export default function Navbar() {
   const handleNavToggle = () =>{
       setNavToggle(!navToggle)
   }
-  console.log(navToggle)
   return (
     <nav className={`${scrollPosition > 0 ? 'sm:bg-white sm:text-black' : 'shadow-none'} 
           bg-transparent flex flex-col justify-between items-center transition sm:sticky top-0 z-100 
