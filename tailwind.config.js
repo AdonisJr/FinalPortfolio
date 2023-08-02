@@ -16,7 +16,7 @@ module.exports = {
         },
         fontFamily: {
             'sans': ['Poppins', ...defaultTheme.fontFamily.sans],
-            'serif': [...defaultTheme.fontFamily.serif],
+            'serif': ['Raleway', ...defaultTheme.fontFamily.serif],
             'mono': [...defaultTheme.fontFamily.mono]
         },
     },

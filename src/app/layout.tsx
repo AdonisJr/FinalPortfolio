@@ -1,9 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import NextAuthSessionProvider from '@/providers/sessionProvider'
+import { Oswald } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const oswald = Oswald({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,8 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className} suppressHydrationWarning={true}>
-      <NextAuthSessionProvider>{children}</NextAuthSessionProvider>
+      <body className={oswald.className} suppressHydrationWarning={true}>
+        {children}
       </body>
     </html>
   )
